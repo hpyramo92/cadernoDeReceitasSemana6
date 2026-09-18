@@ -1,0 +1,63 @@
+@import url("./nav/nav.css");
+@import url("./corpo/corpo.css");
+
+.conteudo {
+	/* border: .5rem solid blue; */
+	display: flex;
+	max-height: 100%;
+	min-height: 100vh;
+}
+
+@media (max-width: 768px) {
+	.conteudo {
+		flex-direction: column;
+		/* Colapsa de 2 colunas para 1 coluna */
+	}
+
+	nav {
+		width: 100%;
+	}
+
+	.corpo {
+		width: 100%;
+	}
+
+	.corpoCardBusca {
+		/* border: .5rem solid black; */
+		flex-direction: column;
+	}
+
+	.cozinhasEmDestaqueWrapper,
+	.receitasRecentesWrapper {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.cardCozinhaEmDestaque {
+		margin: .5rem;
+	}
+
+	.cardReceitaRecente {
+		margin: .5rem;
+	}
+
+	.cardReceitaRecenteConteudo {
+		/* border: .5rem solid green; */
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.cardReceitaRecenteConteudoTempo {
+		/* border: .5rem solid yellow; */
+        width: auto;
+        padding: 0 0.2rem;
+	}
+
+	.cardReceitaRecenteConteudoDificuldade {
+		/* border: .5rem solid blue; */
+        width: auto;
+        text-align: right;
+        padding: 0 0.2rem;
+	}
+}

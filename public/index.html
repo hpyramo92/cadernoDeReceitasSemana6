@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Minhas Receitas</title>
+	<link rel="stylesheet" href="./css/estilo.css">
+	<script src="https://kit.fontawesome.com/ec3a3fcdd8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<header class="cabecalhoPrincipal">
+		<div class="logo">
+			<i id="logo-icone" class="fa-solid fa-kitchen-set logo-icone"></i>
+		</div>
+		<h1 class="titulo">Receitas do Henrique</h1>
+	</header>
+
+	<section class="conteudo">
+		<nav>
+			<ul class="menu-lateral">
+				<li>
+					<a href="#">
+						<div class="opcao">
+							<div class="icone">
+								<i class="fa-solid fa-house"></i>
+							</div>
+							<div class="rotulo">Home</div>
+							<div class="icone-final">
+								<i class="fa-solid fa-chevron-right"></i>
+							</div>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<div class="opcao">
+							<div class="icone">
+								<i class="fa-solid fa-utensils"></i>
+							</div>
+							<div class="rotulo">Cozinhas</div>
+							<div class="icone-final">
+								<i class="fa-solid fa-chevron-right"></i>
+							</div>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<div class="opcao">
+							<div class="icone"><i class="fa-solid fa-bookmark"></i></div>
+							<div class="rotulo">Favoritos</div>
+							<div class="icone-final"><i class="fa-solid fa-chevron-right"></i></div>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<div class="opcao">
+							<div class="icone">
+								<i class="fa-solid fa-info-circle"></i>
+							</div>
+							<div class="rotulo">Sobre</div>
+							<div class="icone-final">
+								<i class="fa-solid fa-chevron-right"></i>
+							</div>
+						</div>
+					</a>
+				</li>
+			</ul>
+		</nav>
+		<div class="corpo">
+			<main>
+				<div class="cardBusca">
+					<div class="cabecalhoCardBusca">
+						<img src="./img/banner.jpg" alt="Logo do site">
+						<h1>Bem vindo! O que vamos cozinhar hoje?</h1>
+						<p>Esse é meu caderno de receitas! Pesquise por uma cozinha, ou por receita para achar como eu faço!</p>
+					</div>
+					<div class="corpoCardBusca">
+						<form class="corpoCardBusca" action="#" method="GET">
+							<input type="text" name="busca" placeholder="Buscar receita...">
+							<select name="cozinha">
+								<option value="">Todas as cozinhas</option>
+								<option value="italiana">Italiana</option>
+								<option value="brasileira">Brasileira</option>
+								<option value="chinesa">Chinesa</option>
+							</select>
+							<button type="submit" class="botaoCardBusca">
+								<span class="rotulo">Acesse</span>
+								<span class="icone-final-cartao"><i class="fa-solid fa-chevron-right"></i></span>
+							</button>
+						</form>
+					</div>
+				</div>
+				<div class="cozinhasEmDestaque">
+					<h2>Cozinhas em destaque</h2>
+					<section class="cozinhasEmDestaqueWrapper">
+						<article class="cardCozinhaEmDestaque">
+							<img src="./img/italiana.jpg" alt="Cozinha Italiana">
+							<h3>Cozinha Italiana</h3>
+						</article>
+						<article class="cardCozinhaEmDestaque">
+							<img src="./img/brasileira.jpg" alt="Cozinha Brasileira">
+							<h3>Cozinha Brasileira</h3>
+						</article>
+						<article class="cardCozinhaEmDestaque">
+							<img src="./img/chinesa.jpg" alt="Cozinha Chinesa">
+							<h3>Cozinha Chinesa</h3>
+						</article>
+					</section>
+				</div>
+				<div class="receitasRecentes">
+					<h2>Receitas recentes</h2>
+					<section class="receitasRecentesWrapper">
+						<article class="cardReceitaRecente">
+							<div class="cardReceitaRecenteCabecalho">
+								<img src="./img/ravioli.jpg" alt="Receita 1">
+								<h3>Ravioli - Italiana</h3>
+							</div>
+							<div class="cardReceitaRecenteConteudo">
+								<p class="cardReceitaRecenteConteudoTempo">40m</p>
+								<p class="cardReceitaRecenteConteudoDificuldade">Dificuldade média</p>
+							</div>
+							<div class="cardReceitaRecenteBotao">
+								<a href="#">
+									<div class="botao-do-cartao">
+										<div class="rotulo">Acesse</div>
+										<div class="icone-final-cartao">
+											<i class="fa-solid fa-chevron-right"></i>
+										</div>
+									</div>
+								</a>
+							</div>
+						</article>
+						<article class="cardReceitaRecente">
+							<div class="cardReceitaRecenteCabecalho">
+								<img src="./img/feijoada.jpg" alt="Receita 2">
+								<h3>Feijoada - Brasileira</h3>
+							</div>
+							<div class="cardReceitaRecenteConteudo">
+								<p class="cardReceitaRecenteConteudoTempo">90m</p>
+								<p class="cardReceitaRecenteConteudoDificuldade">Dificuldade difícil</p>
+							</div>
+							<div class="cardReceitaRecenteBotao">
+								<a href="#">
+									<div class="botao-do-cartao">
+										<div class="rotulo">Acesse</div>
+										<div class="icone-final-cartao">
+											<i class="fa-solid fa-chevron-right"></i>
+										</div>
+									</div>
+								</a>
+							</div>
+						</article>
+						<article class="cardReceitaRecente">
+							<div class="cardReceitaRecenteCabecalho">
+								<img src="./img/arrozFrito.jpg" alt="Receita 3">
+								<h3>Arroz Frito - Chinesa</h3>
+							</div>
+							<div class="cardReceitaRecenteConteudo">
+								<p class="cardReceitaRecenteConteudoTempo">20m</p>
+								<p class="cardReceitaRecenteConteudoDificuldade">Dificuldade fácil</p>
+							</div>
+							<div class="cardReceitaRecenteBotao">
+								<a href="#">
+									<div class="botao-do-cartao">
+										<div class="rotulo">Acesse</div>
+										<div class="icone-final-cartao">
+											<i class="fa-solid fa-chevron-right"></i>
+										</div>
+									</div>
+								</a>
+							</div>
+						</article>
+					</section>
+				</div>
+			</main>
+			<footer class="rodapePrincipal">
+				<div class="sobre">
+					<h5>Sobre</h5>
+					<ul>
+						<li><a href="#">Quem sou eu</a></li>
+						<li><a href="#">Contato</a></li>
+					</ul>
+				</div>
+				<div class="cozinhas">
+					<h5>Cozinhas</h5>
+					<ul>
+						<div>
+							<li><a href="#">Italiana</a></li>
+							<li><a href="#">Chinesa</a></li>
+						</div>
+						<div>
+							<li><a href="#">Brasileira</a></li>
+							<li><a href="#">Indiana</a></li>
+						</div>
+					</ul>
+				</div>
+				<div class="redesSociais">
+					<h5>Redes Sociais</h5>
+					<a href="#"><i class="fa-brands fa-facebook iconeRedesSociais"></i></a>
+					<a href="#"><i class="fa-brands fa-instagram iconeRedesSociais"></i></a>
+					<a href="#"><i class="fa-brands fa-twitter iconeRedesSociais"></i></a>
+				</div>
+			</footer>
+		</div>
+	</section>
+</body>
+
+</html>

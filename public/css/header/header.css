@@ -1,0 +1,25 @@
+.cabecalhoPrincipal {
+	/* border: .5rem solid red; */
+	display: flex;
+	background-color:rgb(240, 202, 169);
+}
+
+.logo {
+	/* border: .5rem solid blue; */
+	/* border-radius: 100%; */
+	width: 4rem;
+	height: 4rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+#logo-icone {
+	/* border: .5rem solid green; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	font-size: 2rem;
+}

@@ -1,0 +1,71 @@
+.cardBusca {
+	/* border: .5rem solid red; */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	background-color: #ccc;
+	border-radius: 2rem;
+}
+
+.cabecalhoCardBusca {
+	/* border: .5rem solid yellow; */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.cabecalhoCardBusca img {
+	aspect-ratio: 16/9;
+	width: 50%;
+	border-radius: .5rem;
+}
+
+.corpoCardBusca {
+	/* border: .5rem solid green; */
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+input {
+	margin: .4rem;
+}
+
+.botaoCardBusca {
+	max-width: 100%;
+	padding: .5rem;
+	background-color: blue;
+	color: #eee;
+	font-weight: bold;
+	border: none;
+	border-radius: .5rem;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	display: flex;
+	margin: .4rem;
+}
+
+.icone-final-cartao {
+	width: 1rem;
+	text-align: right;
+	padding-right: .3rem;
+	opacity: 0;
+	transition: opacity 0.3s ease-in;
+}
+
+.botaoCardBusca:hover {
+	background-color: #1818b0;
+	color: white;
+}
+
+.botaoCardBusca:hover .icone-final-cartao {
+	opacity: 1;
+}
