@@ -1,47 +1,14 @@
 .rodapePrincipal {
-	/* border: .5rem solid yellow; */
-	/* max-height: 20%; */
 	background-color: rgb(240, 202, 169);
-	font-size: .8rem;
-	display: flex;
-	flex: 1;
+	font-size: .85rem;
 }
-
-.rodapePrincipal ul {
-	margin: 0;
-	padding: .5rem;
-}
-
+ 
 .rodapePrincipal a {
 	text-decoration: none;
 	color: #141414d3;
 }
-
-.rodapePrincipal .sobre {
-	/* border: .5rem solid orange; */
-	width: 33%;
-}
-
-.rodapePrincipal .cozinhas {
-	/* border: .5rem solid pink; */
-	width: 33%
-}
-
-.cozinhas ul {
-	display: flex;
-}
-
-.cozinhas ul li {
-	margin: 0 1rem 1rem 0;
-}
-
-.rodapePrincipal .redesSociais {
-	/* border: .5rem solid brown; */
-	width: 33%;
-}
-
+ 
 .iconeRedesSociais {
-	/* border: .5rem solid brown; */
-	height: 2rem;
-	width: 2rem;
+	font-size: 1.5rem;
 }
+ 
